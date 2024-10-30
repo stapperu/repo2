@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projekt Forest - Cennik</title>
+  <link rel="stylesheet" href="/dist/css/main.min.css">
+<script src="https://kit.fontawesome.com/b1ec6bf2f0.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="contact">
+  <nav class="nav">
+    <div class="nav-icon"><a href="index.html">🌲 Forest</a>
+    </div>
+    <div class="nav-list">
+        <button class="nav-button"><i class="fa-solid fa-ellipsis"></i></button>
+        <a class="homeNavLink" href="index.html">Home</a>
+        <a class="aboutUsNavLink" href="index.html#about-us">O nas</a>
+        <a class="servicesNavLink" href="index.html#services">Oferta</a>
+        <a class="contactNavLink" href="/contact.html">Kontakt</a>
+    </div>
+
+    <div class="nav-list-column hidden">
+        <button class="nav-button-column"><i class="fa-solid fa-ellipsis"></i></button>
+        <a href="index.html">Home</a>
+        <a href="index.html#about-us">O nas</a>
+        <a href="index.html#services">Oferta</a>
+        <a href="/contact.html">Kontakt</a>
+    </div>
+</nav>
+  <h1>Kontakt <i class="fa-regular fa-envelope"></i></h1>
+  <div class="contact-wrapper">
+    <div class="map">
+      <iframe class="googlemaps"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1279.952339570133!2d19.892459772190403!3d50.08807150324555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1728490398042!5m2!1spl!2spl"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <form action="mail.php" method="post" class="contact-form">
+
+      <div class="contact-box">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="contact-box">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="contact-box">
+        <label for="msg">Wiadomość:</label>
+        <textarea name="msg" id="msg" required></textarea>
+      </div>
+
+      <button class="send-msg-button">Wyślij <i class="fa-solid fa-envelope-open-text"></i> <i
+          class="fa-solid fa-envelope fa-bounce"></i></button>
+
+    </form>
+
+    <p class="msg-status"></p>
+
+
+  </div>
+
+  <div class="footer">
+   <div class="wrap"> 🌲 Forest
+    <div class="column">
+        <p>O Nas</p>
+        <p>a</p>
+        <p>b</p>
+        <p>c</p>
+    </div>
+    <div class="column">
+        <p>Nasza Firma</p>
+        <p>a</p>
+        <p>b</p>
+        <p>c</p>
+    </div>
+    <div class="column">
+        <p>Dokumenty</p>
+        <p>a</p>
+        <p>b</p>
+    </div></div>
+
+    <hr>
+
+    <p class="footer-date">@2024 ForestGroup Ltd.</p>
+   
+</div>
+  <script src="/dist/js/main.min.js"></script>
+</body>
+
+
+</html>
